@@ -20,5 +20,5 @@ app.use("/api/auth", authRoutes);
 
 app.listen(PORT, () => {
     connectToDB()
-    console.log("Server is listening on port 3000")
+    console.log(`Server is listening on port ${PORT}`)
 })
